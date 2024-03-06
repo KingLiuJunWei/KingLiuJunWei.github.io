@@ -81,7 +81,7 @@
                     <span>TAGS</span>
                 </a>
             </li>
-            <li  class=active >
+            <li >
                 <a href="/archives">
                     <i class="iconfont icon-guidang2"></i>
                     <span>ARCHIVES</span>
@@ -93,7 +93,7 @@
                     <span>COLLECT</span>
                 </a>
             </li>
-            <li >
+            <li  class=active >
                 <a href="/about/">
                     <i class="iconfont icon-guanyu2"></i>
                     <span>ABOUT</span>
@@ -135,37 +135,20 @@
     <div class="index-middle">
         <!-- Main Content -->
         
+<div class="post-content ">
+    <pre><code>---
+layout: &quot;about&quot;
+title: &quot;About&quot;
+date: 2016-04-21 04:48:33
+comments: true
+---
+</code></pre>
 
-
-<!-- 归档列表 -->
-
-<div class="archives-container">
-
-<div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2024">
-                    <span class="tag-text">2024</span>
-                </span>
-    <ul>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>03-06</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2024/03/06/hello-world/">
-                        <span>
-                            Hello World
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-
-    </ul>
-</div>
-
+    
+    <div id="comment-container"></div>
+    <div id="disqus_thread"></div>
+    <div class="giscus"></div>
+    <div id="lv-container"></div>
 </div>
 
     </div>
